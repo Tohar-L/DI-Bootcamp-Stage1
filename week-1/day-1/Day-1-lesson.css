@@ -1,0 +1,47 @@
+body {
+	background-color: lightgoldenrodyellow;
+}
+
+p {
+	background-color: blue;
+	border: red 2px solid;
+	color: pink;
+	padding: 10px;
+	margin: 5px;
+}
+
+section div {
+	display: inline-block;
+	height: 50px;
+	width: 70px;
+	margin: 10px;
+}
+
+.a {
+	background-color: green;
+}
+
+.b {
+	background-color: yellow;
+}
+
+.c {
+	background-color: blue;
+}
+
+*{
+box-sizing: border-box;
+}
+
+#navbar {
+	background-color: yellow;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}
+
+nav li {
+	padding: 3px;
+	text-decoration: underline;
+	display: inline;
+}

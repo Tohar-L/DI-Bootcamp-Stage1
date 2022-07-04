@@ -1,0 +1,54 @@
+<style>
+body {
+	background-image: beach jpg;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #edf4f5;
+	text-indent: 2%;
+	height: 60%;
+
+}
+
+.button1 {
+	position: fixed;
+	right: 10%;
+
+}
+
+body {
+	background-image: url(beach1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.button1, .button2 {
+	background-color: #6996f0;
+	color: white;
+	text-align: center;
+}
+
+.bottom {
+	background-color: #edf4f5;
+	margin: 0 -8px;
+}
+
+i {
+	font-size: 100%;
+	color: blue;
+}
+
+.element {
+	display: inline-block;
+	
+	height: 30%;
+	width: 22%;
+	border: solid black 1px;
+	padding: 2%;
+	margin: 4% 0.5%;
+	text-align: center;
+}

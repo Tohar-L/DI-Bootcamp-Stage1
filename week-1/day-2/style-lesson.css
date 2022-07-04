@@ -1,0 +1,27 @@
+* {
+	background-color: #fac0f8;
+	box-sizing: border-box;
+	/*font-family: Serif;*/
+}
+
+form {
+	border: white solid 1px;
+	background-color: #dbd5db;
+	box-shadow: 0 0 10px gray;
+	position: relative;
+	text-align: center;
+}
+
+label {
+	display: inline;
+	position: center;
+}
+
+.checkbox_form {
+	background-color: #dbd5db;
+	font-family: dancing-script;
+}
+
+input[type="checkbox"]:not:checked + label {
+	color: white;
+}

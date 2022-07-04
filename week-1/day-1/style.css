@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+
+.title {
+	text-decoration: underline;
+	font-weight: bold;
+}
+/*why dosnt the bold work?*/
+
+ol {
+	list-style-type: upper-roman;
+	/*why didnt this work*/
+}
+
+.media {
+	text-align: center;
+}
+
+
+.center {
+	display: block;
+	margin: 50px auto;
+	border: orange solid 5px;
+	width: 40%;
+}
+
+
+.red-heading{
+	border: red solid 0.5px;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}
+
+th, td {
+	border: black solid 0.5px;
+}
+
