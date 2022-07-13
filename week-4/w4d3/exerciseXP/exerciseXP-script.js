@@ -28,20 +28,14 @@ console.log(lastNameOfResident);
 
 
 
-//Exercise 3 : Star Wars ----finissshhhhhh
+//Exercise 3 : Star Wars
 let epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
 var epicString = epic.join(' ');
 console.log(epicString);
 
-//how is it with reduce?
-// for (let i=0; i<epic.length; i++ ){
-// 	var word = epic[i];
-// 	console.log(word);
-// var epicStringee = epic.reduce((accumulator, value) => {
-// 	accumulator + value;
-// }, 0);
-// console.log(epicStringee);
-// // }
+var epicStringee = epic.reduce((accumulator, currentValue) =>
+	`${accumulator} ${currentValue}`);
+console.log(epicStringee);
 
 
 
