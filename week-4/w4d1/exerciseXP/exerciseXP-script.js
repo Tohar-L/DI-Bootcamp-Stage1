@@ -83,17 +83,28 @@ var winBattle = () => {
 }
 var experiencePoints = () => {
     winBattle(true) ?  experiencePoints=10 :  experiencePoints=1; 
-    console.log (experiencePoints)
+}
+console.log (experiencePoints());
+
+
+// exercise-3:
+// Write a JavaScript arrow function that checks whether the value of the argument
+// passed, is a string or not. Use ternary operator
+// Check out the example below to see the expected output
+
+//long way:
+function isString(str) {
+    if (typeof (str) == 'string') {
+       return true;
+   } 
+   return false;
 }
 
+//with arrow+ternary operator:
+isString = (str) => {
+ (typeof (str) == 'string') ? console.log(true) : console.log(false);
+}
 
-// exercise-3
-// function isString() {
-//     return (typeof arguments);
-// }   
-
-// var answer = isString(true) ? "true" : "false";
-        // typeof(arguments == String) ? "true" : "false";
 
 
 
@@ -104,6 +115,13 @@ var experiencePoints = () => {
 // If yes, console.log("Yeah"), else console.log("No...")
 
 const colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
+colors.forEach((color, index) => {
+    console.log(`#${index+1} choice is ${color}`);
+})
+
+
+
+
 
 colors.forEach(function (e) {
     console.log(e);
@@ -129,9 +147,18 @@ let check = myArra.every((value) => {
 //“1st choice is Blue .” “2nd choice is Green.” “3rd choice is Red.” ect
 let color = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
 let ordinal = ["th","st","nd","rd"];
+let newOrdinal = ["st","nd","rd","th"];
+
 
 color.forEach((color, index) => {
     console.log(`${index+1} choice is: ${color}`);
+    let temp = '';
+    if (index>2) {
+        temp = newOrdinal[3];
+    } else {
+        temp = newOrdinal[index];
+    }
+    console.log(index+1+temp+ color );
 })
 
 //to be continued:
